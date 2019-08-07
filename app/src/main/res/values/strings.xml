@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="limpar">LIMPAR</string>
+    <string name="digite_seu_peso">Digite seu peso:</string>
+    <string name="digite_sua_altura">Digite sua altura:</string>
+    <string name="calculadora_imc">Calculadora IMC</string>
+    <string name="ex_1_74">Ex.: 1.74</string>
+    <string name="ex_72">Ex.: 72</string>
+    <string name="resultado">Resultado</string>
+    <string name="creditos">creditos</string>
+    <string name="valor">Valor</string>
+    <string name="desenvolvido_por_lucas_barcelos">Desenvolvido por Lucas Barcelos</string>
+    <string name="informe_seu_sexo">Informe seu sexo:</string>
+    <string name="label_masculino">Masculino</string>
+    <string name="label_feminino">Feminino</string>
+    <string name="peso_abaixo">Abaixo do peso</string>
+    <string name="peso_ideal">Peso ideal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obeso">Obeso</string>
+    <string name="obesidade_extrema">Obesidade extrema</string>
+</resources>
