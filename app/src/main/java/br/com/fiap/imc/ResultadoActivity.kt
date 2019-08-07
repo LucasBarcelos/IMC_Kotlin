@@ -19,13 +19,16 @@ class ResultadoActivity : AppCompatActivity() {
         val altura = intent.getDoubleExtra("Altura", 0.0)
         val sexo = intent.getStringExtra("Sexo") ?: getString(R.string.label_feminino)
 
+        val imc = peso / (altura * altura)
         when (sexo) {
-            getString(R.string.label_feminino) -> {calculoFeminino(imc)}
-            getString(R.string.label_masculino) -> {calculoMasculino(imc)}
+            getString(R.string.label_feminino) -> {
+                calculoFeminino(imc)
+            }
+            getString(R.string.label_masculino) -> {
+                calculoMasculino(imc)
+            }
             else -> println("Escolhe algum ae")
         }
-
-        val imc = peso / (altura * altura)
     }
 
     private fun calculoFeminino(imc: Double) {
